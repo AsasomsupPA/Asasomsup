@@ -1,0 +1,17 @@
+{
+  "name": "Asasomsup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AsasomsupPA/Asasomsup.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+  	"start": "babel-node server.js --presets es2015,stage-2"
+  }
+}
